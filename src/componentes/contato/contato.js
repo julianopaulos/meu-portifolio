@@ -17,13 +17,15 @@ export default class Contato extends React.Component
     handleSubmit(event)
     {
         event.preventDefault();
-        axios({
-            method : 'post',
-            url : 'https://jsdie099.github.io/contato/index.php',
-            data : JSON.stringify(this.state),
-            headers : {'Access-Control-Allow-Origin' : '*','Accept': 'application/json'},
-            dataType : 'application/json'
-        })
+        axios.create({
+            baseURL : 'https://jsdie099.github.io/meu-portifolio',
+            transformRequest : [(() => JSON.stringify(this.state))],
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json',
+            }
+        });
+        axios.post('/contato/index.php')
             .then((request)=>{
                 console.log(request);
                 let data  = request.data.indexOf('{"sent":{"data":true}}');

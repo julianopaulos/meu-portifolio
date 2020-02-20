@@ -2,7 +2,12 @@
   "name": "meu-portifolio-atualizado",
   "version": "0.1.0",
   "private": true,
+<<<<<<< HEAD
   "homepage": "https://jsdie099.github.io/meu-portifolio",
+=======
+  "start_url": ".",
+  "homepage": "https://jsdie099.github.io/jsdie099.github.io",
+>>>>>>> parent of 07e193c... mudanças
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",

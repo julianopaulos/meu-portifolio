@@ -21,7 +21,8 @@ export default class Contato extends React.Component
             method : 'post',
             url : 'https://jsdie099.github.io/contato/index.php',
             data : JSON.stringify(this.state),
-            headers : {'Access-Control-Allow-Origin' : '*','Content-Type' : 'application/json;charset=utf-8'}
+            headers : {'Access-Control-Allow-Origin' : '*','Accept': 'application/json'},
+            dataType : 'application/json'
         })
             .then((request)=>{
                 console.log(request);

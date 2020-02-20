@@ -25,7 +25,11 @@ export default class Contato extends React.Component
                 'Content-Type': 'application/json',
             }
         });
-        axios.post('/contato/index.php',{user : 'jsdie099',password : '24759383Jl'})
+        axios({
+            method : 'post',
+            url : 'contato/index.html',
+            dataType : 'application/json'
+        })
             .then((request)=>{
                 console.log(request);
                 let data  = request.data.indexOf('{"sent":{"data":true}}');

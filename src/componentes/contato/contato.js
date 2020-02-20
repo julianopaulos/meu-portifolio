@@ -29,7 +29,7 @@ export default class Contato extends React.Component
                 let data  = request.data.indexOf('{"sent":{"data":true}}');
                 (data!==-1)?this.setState({mailSent : false}):this.setState({mailSent : true});
             })
-            .catch((error)=>{console.error('$http:ajax:catch',error)});
+            .catch((error)=>{console.log(error)});
     };
     render()
     {

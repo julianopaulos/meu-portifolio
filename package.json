@@ -2,7 +2,7 @@
   "name": "meu-portifolio-atualizado",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://jsdie099.github.io/meu-portifolio",
+  "homepage": "https://jsdie099.github.io/home",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
@@ -10,6 +10,7 @@
     "axios": "^0.19.2",
     "express": "^4.17.1",
     "gh-pages": "^2.2.0",
+    "git-pages": "^0.8.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-router": "^5.1.2",
@@ -19,7 +20,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build", 
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",

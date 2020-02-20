@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/meu-portifolio/static/js/main.e9408d37.chunk.js",
+    "main.js.map": "/meu-portifolio/static/js/main.e9408d37.chunk.js.map",
+    "runtime-main.js": "/meu-portifolio/static/js/runtime-main.b689845a.js",
+    "runtime-main.js.map": "/meu-portifolio/static/js/runtime-main.b689845a.js.map",
+    "static/js/2.0c328b6b.chunk.js": "/meu-portifolio/static/js/2.0c328b6b.chunk.js",
+    "static/js/2.0c328b6b.chunk.js.map": "/meu-portifolio/static/js/2.0c328b6b.chunk.js.map",
+    "index.html": "/meu-portifolio/index.html",
+    "precache-manifest.3ad371e04b4529294b5343ade72437e6.js": "/meu-portifolio/precache-manifest.3ad371e04b4529294b5343ade72437e6.js",
+    "service-worker.js": "/meu-portifolio/service-worker.js",
+    "static/js/2.0c328b6b.chunk.js.LICENSE.txt": "/meu-portifolio/static/js/2.0c328b6b.chunk.js.LICENSE.txt",
+    "static/media/fast_food.jpg": "/meu-portifolio/static/media/fast_food.6f2bd316.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b689845a.js",
+    "static/js/2.0c328b6b.chunk.js",
+    "static/js/main.e9408d37.chunk.js"
+  ]
+}

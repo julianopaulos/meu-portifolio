@@ -1,0 +1,12 @@
+{
+    "name": "juliano/email_php",
+    "authors": [
+        {
+            "name": "Juliano",
+            "email": "julianopaulo.santos@hotmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "~6.1"
+    }
+}

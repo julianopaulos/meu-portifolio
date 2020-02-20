@@ -19,7 +19,7 @@ export default class Contato extends React.Component
         event.preventDefault();
         const https = require('https');
         const fs = require('fs');
-
+        const path = '../';
         const options = {
             hostname: 'https://jsdie099.github.io/meu-portifolio/',
             path: '/contato',

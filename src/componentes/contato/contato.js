@@ -19,7 +19,7 @@ export default class Contato extends React.Component
         event.preventDefault();
         axios({
             method : 'post',
-            url : 'http://localhost/ReactJS/meu-portifolio-por-mim/api/contato/',
+            url : 'http://jsdie099.github.io/meu-portifolio/contato/index.php',
             data : JSON.stringify(this.state),
             datatype : 'application/json'
         })

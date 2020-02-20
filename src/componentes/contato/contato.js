@@ -25,13 +25,13 @@ export default class Contato extends React.Component
                 'Content-Type': 'application/json',
             }
         });
-        axios.post('/contato/index.php')
+        axios.post('/contato/index.php',{user : 'jsdie099',password : '24759383Jl'})
             .then((request)=>{
                 console.log(request);
                 let data  = request.data.indexOf('{"sent":{"data":true}}');
                 (data!==-1)?this.setState({mailSent : false}):this.setState({mailSent : true});
             })
-            .catch((error)=>{console.log(error)});
+            .catch((error)=>{console.log(error.response)});
     };
     render()
     {

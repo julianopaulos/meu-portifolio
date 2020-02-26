@@ -1,12 +1,9 @@
 <?php
 header("Access-Control-Allow-Origin: *");
 header('Cache-Control: no-cache, must-revalidate');
-header('Content-Type: application/json; charset=utf-8');
-
-
+header('Content-Type: application/json');
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
-
 
 require "vendor/autoload.php";
 session_start();

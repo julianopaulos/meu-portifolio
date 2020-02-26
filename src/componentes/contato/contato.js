@@ -19,9 +19,9 @@ export default class Contato extends React.Component
         event.preventDefault();
         axios({
             method : 'post',
+            headers : [{'Access-Control-Allow-Origin' : '*', 'Content-Type': 'application/json'}],
             url : 'https://jsdie099.github.io/meu-portifolio/contato/index.php',
-            dataType : 'application/json',
-	        headers : [{'Access-Control-Allow-Origin' : '*'}]
+            dataType : 'json'
         })
             .then((request)=>{
                 console.log(request);

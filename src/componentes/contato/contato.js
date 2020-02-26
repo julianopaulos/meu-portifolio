@@ -68,7 +68,7 @@ export default class Contato extends React.Component
                                     required
                                 />
                             </label><br/>
-                            <input type="submit" value="Enviar" onClick={/*e=>this.handleSubmit(e)*/} />
+                            <input type="submit" value="Enviar"  />
                         </form>
                         </div>
                         <div className="col-md-1"/>

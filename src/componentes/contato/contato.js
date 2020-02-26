@@ -17,32 +17,11 @@ export default class Contato extends React.Component
     handleSubmit(event)
     {
         event.preventDefault();
-        const https = require('https');
-        const fs = require('fs');
-        const path = '../';
-        const options = {
-            hostname: 'https://jsdie099.github.io/meu-portifolio/',
-            path: '/contato',
-            method: 'POST',
-            ca: fs.readFileSync(`${path}CA.pem`),
-            cert: fs.readFileSync(`${path}CERT.pem`),
-            key: fs.readFileSync(`${path}KEY.pem`),
-            auth: {'user':'jsdie099','password':'24759383Jl'},
-            rejectUnauthorized: false
-        };
-        const req = https.request(options, (res) => {
-            res.on('data', (data) => {
-                process.stdout.write(data);
-            });
-        });
-        req.end();
-        req.on('error', (e) => {
-            console.error(e);
-        });
+
 
         axios({
             method : 'post',
-            url : 'contato/index.html',
+            url : 'https://jsdie099.github.io/contato/index.php',
             dataType : 'application/json'
         })
             .then((request)=>{

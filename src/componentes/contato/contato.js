@@ -17,7 +17,7 @@ export default class Contato extends React.Component
     handleSubmit(event)
     {
         event.preventDefault();
-        axios({
+        /*axios({
             method : 'post',
             headers : [{'Access-Control-Allow-Origin' : '*', 'Content-Type': 'application/json'}],
             url : 'https://jsdie099.github.io/meu-portifolio/contato/index.php',
@@ -29,6 +29,8 @@ export default class Contato extends React.Component
                 (data!==-1)?this.setState({mailSent : false}):this.setState({mailSent : true});
             })
             .catch((error)=>{console.log(error.response)});
+
+         */
     };
     render()
     {
@@ -40,7 +42,7 @@ export default class Contato extends React.Component
                     <div className="row">
                         <div className="col-md-2"/>
                         <div className="col-md-4">
-                        <form action="" method="post">
+                        <form action="http://formspree.io/julianopaulo.santos@hotmail.com" method="post">
                             <label><h4>Seu nome:</h4>
                                 <input 
                                     type="text" 
@@ -52,7 +54,7 @@ export default class Contato extends React.Component
                             <label><h4>Seu e-mail:</h4>
                                 <input 
                                     type="email" 
-                                    name="email" 
+                                    name="_replyto"
                                     required
                                     onChange={e=>this.setState({email : e.target.value})}
                                 />
@@ -66,8 +68,7 @@ export default class Contato extends React.Component
                                     required
                                 />
                             </label><br/>
-                            <input type="submit" value="Enviar" onClick={e=>this.handleSubmit(e)} />
-
+                            <input type="submit" value="Enviar" onClick={/*e=>this.handleSubmit(e)*/} />
                         </form>
                         </div>
                         <div className="col-md-1"/>

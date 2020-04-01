@@ -24,8 +24,8 @@ if(isset($_POST) and !empty($_POST))
             $mail->isSMTP();
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
-            $mail->Username = "julisnopaulo.santos@gmail.com";
-            $mail->Password = "24759383Jl2932";
+            $mail->Username = "admin@gmail.com";
+            $mail->Password = "password";
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
             $mail->Port = 587;
             $mail->setFrom($email,$nome);

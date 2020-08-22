@@ -30,7 +30,7 @@
     transition:.4s;
     text-align: center;
 }
-.header ul li a:hover, #hovered
+.header ul li a:hover, .hovered a
 {
     color: rgba(50,50,50,1);
     border-color: rgba(180,180,200,.9);
@@ -61,6 +61,10 @@
 .header ul li.btn-close-menu-list:hover
 {
     transform: rotate(180deg);
+}
+.menu
+{
+    width: 3rem;
 }
 .menu .MuiSvgIcon-root
 {
@@ -95,10 +99,11 @@
         padding: 10px 15px;
         
     }
-    .header ul li a:hover, #hovered
+    .header ul li a:hover, .hovered a
     {
         border-radius: 8px;
         padding: 5px 10px;
+        background-color:transparent;
     }
     .menu .MuiSvgIcon-root
     {

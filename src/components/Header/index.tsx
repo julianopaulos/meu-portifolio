@@ -15,34 +15,43 @@ export default function Header()
 {
     const history = useHistory();
     const [widthMenuList, setWitdhMenuList] = useState<string>('100vw');
-    const [responsiveWidthMenuList, setResponsiveWitdhMenuList] = useState<string>('100vw');
-
+    const [responsiveWidthMenuList, setResponsiveWitdhMenuList] = useState<string>('0');
     
+
+
     useEffect(()=>{
-        document.querySelectorAll("a").forEach((item)=>{
-            if(item.toString() === document.title)
-            {
-                
-                item.setAttribute("id","hovered");
-            }
-            console.log(item.name);
-        })
+        const lists = document.getElementsByTagName("li");
+        for(let i=0;i<lists.length;i++)lists[i].onclick = function(){setTimeout(()=>{
+            setHoveredTitle()
+        },100);}
+        setTimeout(()=>setHoveredTitle(), 100);
     },[history]);
 
     window.addEventListener('resize', function(){
-        if(window.screen.width>=600)
-        {
-            setWitdhMenuList('100vw');
-        }
+        if(window.screen.width>=600)setWitdhMenuList('100vw');
+        else setWitdhMenuList('0');
     });
+
+    function setHoveredTitle()
+    {
+        const lists = document.getElementsByTagName("li");
+        for(let i=0;i<lists.length;i++)
+        {
+            if(lists[i].id === document.title) lists[i].classList.add("hovered")
+            else lists[i].classList.remove("hovered")
+        }
+    }
 
     const renderLink = ()=>{
         return links.map(link=>{
             
             return (
                 <li 
+                    id={link.label}
                     key={link.route} 
-                    onClick={()=>setResponsiveWitdhMenuList((responsiveWidthMenuList==="0")?'block':'0')}
+                    onClick={()=>{
+                        setResponsiveWitdhMenuList('0')
+                    }}
                 >
                     <Link  to={link.route} >{link.label}</Link>
                 </li>
@@ -55,15 +64,15 @@ export default function Header()
                     className="menu" 
                     style={{display:(responsiveWidthMenuList === '0')?'block':'none'}}
                     onClick={()=>{
-                        setResponsiveWitdhMenuList((responsiveWidthMenuList==="0")?'100vw':'0');
-                        setWitdhMenuList('100vw');
+                        setResponsiveWitdhMenuList((responsiveWidthMenuList==="0")?'90vw':'0');
+                        setWitdhMenuList('90vw');
                     }} 
                 >
                     <Icons.Menu />
                 </span>
                 <ul 
                     className="menu-list" 
-                    style={{width:(document.querySelector("span.menu[style]")===null)?
+                    style={{width:(window.screen.width<600)?
                         responsiveWidthMenuList:widthMenuList
                     }}
                 >

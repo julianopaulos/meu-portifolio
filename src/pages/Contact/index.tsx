@@ -1,21 +1,27 @@
-import React, { useEffect } from 'react'
+import React, { useEffect } from 'react';
+import * as Icons from '@material-ui/icons';
+
 import './style.css';
+
 export default function Contact() {
     useEffect(()=>{document.title="Contato"},[]);
     return (
-        <div className="container content" id="contato" data-spy="scroll" data-target="#barraNavegacao">
-            <h1>Contato</h1>
-            <div className="container">
-                <div className="row">                        
-                    <div className="">
-                        <h5>Outros contatos:</h5>
-                        <div className="dados">
-                            Juliano Paulo da Silva Santos<br/>
-                            E-mail: julianopaulo.santos@hotmail.com
-                            Celular (WhatsApp): (35) 9 8452-3630
-                        </div>
+        <div className="container">
+            <div className="contact">
+                <div className="presentation typewriter-effect anim-typewriter">
+                    <span>Contato</span>
+                    <span>Juliano Paulo</span>
+                </div>
+                <div className="content">
+                    <div className="whatsapp-section">
+                        <span>Celular <Icons.WhatsApp/>:</span> 
+                        <span>(35) 9 8452-3630</span>
                     </div>
-                </div>                   
+                    <div className="email-section">
+                        <span>E-mail <Icons.Email/>:</span>
+                        <span>julianopaulo.santos@hotmail.com</span>
+                    </div>
+                </div>
             </div>
         </div>
     )

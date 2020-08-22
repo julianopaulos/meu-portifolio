@@ -1,0 +1,141 @@
+.home
+{
+    font-family: 'Courier New', Courier, monospace;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgba(250,250,250,.8);
+}
+.home hr
+{
+    color: #fff;
+    opacity: .4;
+    width: 100vw;
+    margin:50px auto;
+}
+.presentation
+{
+    
+    width: 80vw;
+    font-weight: 600;
+}
+.presentation .name
+{    
+    text-align: center;
+    font-size:3.5rem;
+    margin: 0 auto 40px auto;
+}
+.presentation .skills
+{
+    font-size:2.2rem;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.presentation .skills span
+{
+    margin-bottom:10px;
+}
+.presentation .subskills
+{
+    color: rgba(200,200,200,.8);
+    display: flex;
+    flex-direction: column;
+    font-size:1.8rem;
+    width: 70vw;
+    margin-left: auto;
+}
+.presentation .subskills span::before
+{
+    content: '»';
+    color:#fff;
+    font-size:2rem;
+}
+.content
+{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.content .main
+{
+    text-align: start;
+    font-size:2rem;
+    line-height: 30px;
+}
+.content .main img
+{
+    display: none;
+    /* width: 100%; */
+}
+.content .social-links
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:40px;
+}
+.content .social-links a .MuiSvgIcon-root
+{
+    font-size:6rem;
+    margin: 10px auto;
+    color: rgba(250,250,250,.8);
+    transition: color .5s;
+}
+.content .social-links a .MuiSvgIcon-root:hover
+{
+    font-size:6.5rem;
+    color: rgba(200,200,200,.6);
+}
+
+
+
+
+
+
+/*Animação*/
+.typewriter-effect{
+    text-shadow: 5px 4px 0 rgba(100,100,100,.12);
+    position: relative;
+    width: 0px;
+    margin: auto;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    white-space: nowrap;
+    overflow: hidden;
+}
+.anim-typewriter {
+    animation: typewriter 6s steps(13) 1700ms infinite,
+    blinkTextCursor 1700ms steps(13) infinite normal;
+}
+@keyframes typewriter {
+    0% {
+          width: 0px;
+    }
+    10% {
+          width: 0px;
+    }
+    25% {
+          width: 100%;
+    }
+    75% {
+          width: 100%;
+    }
+    90% {
+          width: 0px;
+    }
+    100% {
+          width: 0px;
+    }
+}
+@keyframes blinkTextCursor {
+    from {
+          border-right-color: rgba(255, 255, 255, 0.75);
+    }
+    to {
+          border-right-color: transparent;
+    }
+}

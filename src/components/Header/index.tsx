@@ -16,20 +16,17 @@ export default function Header()
     const history = useHistory();
     const [widthMenuList, setWitdhMenuList] = useState<string>('100vw');
     const [responsiveWidthMenuList, setResponsiveWitdhMenuList] = useState<string>('0');
-    
-
-
     useEffect(()=>{
         const lists = document.getElementsByTagName("li");
-        for(let i=0;i<lists.length;i++)lists[i].onclick = function(){setTimeout(()=>{
-            setHoveredTitle()
-        },100);}
+        for(let i=0;i<lists.length;i++)lists[i].onclick = function(){
+            setTimeout(()=>setHoveredTitle(),100);
+        }
         setTimeout(()=>setHoveredTitle(), 100);
     },[history]);
 
     window.addEventListener('resize', function(){
         if(window.screen.width>=600)setWitdhMenuList('100vw');
-        else setWitdhMenuList('0');
+        else setWitdhMenuList('0');setResponsiveWitdhMenuList('0');
     });
 
     function setHoveredTitle()

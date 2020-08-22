@@ -1,4 +1,4 @@
-.graduations
+.portfolio
 {
     font-family: 'Courier New', Courier, monospace;
     width: 100vw;
@@ -8,35 +8,35 @@
     flex-direction: column;
     color: rgba(250,250,250,.8);
 }
-.presentation
+.portfolio .presentation
 {
     width: 100vw;
     font-weight: 600;
     display: flex;
     flex-direction: column;
 }
-.presentation span:first-child
+.portfolio .presentation span:first-child
 {
     font-size: 3.3rem;
     text-shadow: 5px 5px 0 rgba(0,0,0,.23);
 }
-.presentation span
+.portfolio .presentation span
 {    
     text-align: center;
     font-size:2rem;
 }
-.presentation span + span
+.portfolio .presentation span + span
 {
     margin-top: 40px;
 }
-.content
+.portfolio .content
 {
     width: 80vw;
     display: flex;
     flex-direction: column;
     margin-top: 50px;
 }
-.project-container
+.portfolio .project-container
 {
     margin: 20px auto;
     border: 1px solid #fff;
@@ -47,42 +47,43 @@
     line-height: 30px;
     word-break: normal;
 }
-.project-container:last-child
+.portfolio .project-container:last-child
 {
     margin: 0 auto;
+    margin-bottom:20px;
 }
-.project-container img
+.portfolio .project-container img
 {
     width: 100%;
 }
-.project-container hr
+.portfolio .project-container hr
 {
     color: #fff;
     opacity: .4;
     width: 100%;
     margin:10px auto;
 }
-.project-container .details
+.portfolio .project-container .details
 {
     display: flex;
     flex-direction: column;
     font-weight: 600;
     line-height: 30px;
 }
-.project-container .details span
+.portfolio .project-container .details span
 {
     font-size:2rem;
     margin: 0 20px;
     margin-bottom:20px;
 }
-.project-container .details span:first-child
+.portfolio .project-container .details span:first-child
 {
     text-align:justify;
     margin: 10px auto;
     margin-top:15px;
     font-size:2.5rem;
 }
-.project-container .details a
+.portfolio .project-container .details a
 {
     display: flex;
     align-items: center;
@@ -100,7 +101,7 @@
     opacity: .8;
 }
 
-.project-container .details a:hover
+.portfolio .project-container .details a:hover
 {
     background-color: rgba(255,255,255,.5);
     opacity: 1;

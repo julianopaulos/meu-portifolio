@@ -1,0 +1,44 @@
+.graduations
+{
+    font-family: 'Courier New', Courier, monospace;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgba(250,250,250,.8);
+}
+.graduations .presentation
+{
+    width: 100vw;
+    font-weight: 600;
+    text-align: center;
+    font-size:2rem;
+    font-size: 3.3rem;
+    text-shadow: 5px 5px 0 rgba(0,0,0,.23);
+}
+.graduations .content
+{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.graduations .content .course-name
+{
+    font-size:2.8rem;
+    font-weight: 600;
+    text-align: center;
+    margin:20px auto;
+    font-family: sans-serif;
+}
+
+.graduations .content .course-details
+{
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    line-height: 30px;
+    font-size:2rem;
+    margin-bottom:20px;
+}

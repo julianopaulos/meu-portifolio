@@ -8,7 +8,7 @@ export default function Projects() {
     useEffect(()=>{document.title="Projetos"},[]);
     return (
         <div className="container">
-          <div className="graduations">
+          <div className="portfolio">
             <div className="presentation">
               <span className="typewriter-effect anim-typewriter">Projetos Desenvolvidos</span>
               <span>Veja alguns de meus projetos aqui:</span>
@@ -37,7 +37,7 @@ export default function Projects() {
                             target="_blank" 
                             rel="noopener noreferrer"
                         >
-                            Conheça-o
+                            Visitar
                         </a>
                     </div>
                 </div>
@@ -63,7 +63,7 @@ export default function Projects() {
                             target="_blank" 
                             rel="noopener noreferrer"
                         >
-                            Conheça-o
+                            Visitar
                         </a>
                     </div>
                 </div>

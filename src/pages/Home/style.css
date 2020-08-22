@@ -15,31 +15,31 @@
     width: 100vw;
     margin:50px auto;
 }
-.presentation
+.home .presentation
 {
     
     width: 80vw;
     font-weight: 600;
 }
-.presentation .name
+.home .presentation .name
 {    
     text-align: center;
     font-size:3.5rem;
     text-shadow: 5px 5px 0 rgba(0,0,0,.23);
     margin: 0 auto 40px auto;
 }
-.presentation .skills
+.home .presentation .skills
 {
     font-size:2.2rem;
     margin-top: 20px;
     display: flex;
     flex-direction: column;
 }
-.presentation .skills span
+.home .presentation .skills span
 {
     margin-bottom:10px;
 }
-.presentation .subskills
+.home .presentation .subskills
 {
     color: rgba(200,200,200,.8);
     display: flex;
@@ -48,26 +48,26 @@
     width: 70vw;
     margin-left: auto;
 }
-.presentation .subskills span::before
+.home .presentation .subskills span::before
 {
     content: '»';
     color:#fff;
     font-size:2rem;
 }
-.content
+.home .content
 {
     width: 80vw;
     display: flex;
     flex-direction: column;
     margin-bottom: 40px;
 }
-.content .main
+.home .content .main
 {
     text-align: start;
     font-size:2rem;
     line-height: 30px;
 }
-.content .main p
+.home .content .main p
 {
     margin: 20px auto;
 }
@@ -76,7 +76,7 @@
     display: none;
     /* width: 100%; */
 }
-.content .social-links
+.home .content .social-links
 {
     display: flex;
     flex-direction: column;
@@ -84,14 +84,14 @@
     justify-content: center;
     margin-top:40px;
 }
-.content .social-links a .MuiSvgIcon-root
+.home .content .social-links a .MuiSvgIcon-root
 {
     font-size:6rem;
     margin: 10px auto;
     color: rgba(250,250,250,.8);
     transition: color .5s;
 }
-.content .social-links a .MuiSvgIcon-root:hover
+.home .content .social-links a .MuiSvgIcon-root:hover
 {
     font-size:6.5rem;
     color: rgba(200,200,200,.6);

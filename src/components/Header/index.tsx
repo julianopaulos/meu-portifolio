@@ -59,7 +59,7 @@ export default function Header()
             <nav className="header">
                 <span 
                     className="menu" 
-                    style={{display:(responsiveWidthMenuList === '0')?'block':'none'}}
+                    style={{opacity:(responsiveWidthMenuList === '0')?'1':'0'}}
                     onClick={()=>{
                         setResponsiveWitdhMenuList((responsiveWidthMenuList==="0")?'90vw':'0');
                         setWitdhMenuList('90vw');

@@ -38,6 +38,10 @@
     display: flex;
     flex-direction: column;
 }
+.email-section
+{
+    margin-top:15px;
+}
 .whatsapp-section span, .email-section span
 {
     display: flex;
@@ -46,14 +50,24 @@
     word-break: break-all;
     margin-left:20px;
 }
+
 .whatsapp-section span:first-child, .email-section span:first-child
 {
     margin-left:0;
     font-size:2.7rem;
+    font-weight: 600;
     margin-bottom:10px;
 }
 .whatsapp-section span .MuiSvgIcon-root, .email-section span .MuiSvgIcon-root
 {
     font-size:2.7rem;
     margin-left:20px;
+}
+.whatsapp-section span .MuiSvgIcon-root
+{
+    color: rgba(200,250,200,.8);
+}
+.email-section span .MuiSvgIcon-root
+{
+    color:#ffff;
 }

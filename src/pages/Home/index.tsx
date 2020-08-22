@@ -33,12 +33,18 @@ export default function Home() {
 
                     <section className="main">
                         <img src={myProfilePicture} alt="Foto de perfil"/>
-                        Sou um desenvolvedor web com maior foco em  <b>backend</b>, mas também 
-                        com conhecimentos em frontend.
-                        Tenho conhecimentos em <b>PHP, Nodejs, SQL, Reactjs, HTML5, Css3 e Bootstrap</b>, sempre me 
-                        aperfeiçoando com mais.
-                        Para saber mais sobre mim e sobre meus feitos acesse o meus projetos clicando 
-                        no link do menu.Também lhe apresento minhas redes sociais principais:
+                        <p>
+                            Recém formado em Análise e Desenvolvimento de Sistemas, tenho 21 anos.
+                            Sou apaixonado por tecnologia, e me tornei um desenvolvedor web para sanar minhas
+                            vontades de aprender, venho com maior foco em  <b>backend development</b>, 
+                            mas também com conhecimentos em <b>frontend</b>.
+                        </p>
+                        <p>
+                            Tenho conhecimentos em <b>PHP, Nodejs, SQL, Reactjs, HTML5, Css3 e Bootstrap</b>, 
+                            sempre me aperfeiçoando com mais.
+                            Para saber mais sobre mim e sobre meus feitos acesse o meus projetos clicando 
+                            no link do menu.Também lhe apresento minhas principais redes sociais:
+                        </p>
                     </section>
                     <div className="social-links">
                         <a 

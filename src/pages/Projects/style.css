@@ -1,0 +1,118 @@
+.graduations
+{
+    font-family: 'Courier New', Courier, monospace;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgba(250,250,250,.8);
+}
+.presentation
+{
+    width: 100vw;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+}
+.presentation span:first-child
+{
+    font-size: 3.3rem;
+    text-shadow: 5px 5px 0 rgba(0,0,0,.23);
+}
+.presentation span
+{    
+    text-align: center;
+    font-size:2rem;
+}
+.presentation span + span
+{
+    margin-top: 40px;
+}
+.content
+{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.project-container
+{
+    margin: 20px auto;
+    border: 1px solid #fff;
+    padding:30px 20px;
+    border-radius:10px;
+    text-align: start;
+    font-size:2rem;
+    line-height: 30px;
+    word-break: normal;
+}
+.project-container:last-child
+{
+    margin: 0 auto;
+}
+.project-container img
+{
+    width: 100%;
+}
+.project-container hr
+{
+    color: #fff;
+    opacity: .4;
+    width: 100%;
+    margin:10px auto;
+}
+.project-container .details
+{
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    line-height: 30px;
+}
+.project-container .details span
+{
+    font-size:2rem;
+    margin: 0 20px;
+    margin-bottom:20px;
+}
+.project-container .details span:first-child
+{
+    text-align:justify;
+    margin: 10px auto;
+    margin-top:15px;
+    font-size:2.5rem;
+}
+.project-container .details a
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration:none;
+    border: 2px solid rgba(250,250,250,.5);
+    height: 40px;
+    width: 80%;
+    margin: 0 auto;
+    color: rgba(250,250,250,.8);
+    font-size:3rem;
+    border-radius: 8px;
+    font-family: sans-serif;
+    transition: .5s;
+    opacity: .8;
+}
+
+.project-container .details a:hover
+{
+    background-color: rgba(255,255,255,.5);
+    opacity: 1;
+}
+
+
+
+/*Animação*/
+.typewriter-effect{
+    white-space: normal;
+}
+.anim-typewriter {
+    animation: typewriter 5s steps(10) 1200ms infinite,
+    blinkTextCursor 1200ms steps(10) infinite normal;
+}

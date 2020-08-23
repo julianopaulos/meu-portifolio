@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import * as Icons from '@material-ui/icons';
 
 import './style.css';
-
+/* 'https://wa.me/5535984523630' */
 export default function Contact() {
     useEffect(()=>{document.title="Contato"},[]);
     return (
@@ -14,7 +14,13 @@ export default function Contact() {
                 </div>
                 <div className="content">
                     <div className="whatsapp-section">
-                        <span>Celular <Icons.WhatsApp/>:</span> 
+                        <a 
+                            href="https://wa.me/5535984523630"
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                        >
+                            <span>Celular <Icons.WhatsApp/>:</span> 
+                        </a>
                         <span>(35) 9 8452-3630</span>
                     </div>
                     <div className="email-section">

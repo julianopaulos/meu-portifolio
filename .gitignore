@@ -8,8 +8,6 @@ src/react-app-env.d.ts
 # testing
 /coverage
 
-# production
-/build
 
 # misc
 .DS_Store

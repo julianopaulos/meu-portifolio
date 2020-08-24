@@ -1,6 +1,7 @@
 {
   "name": "portifolio",
   "version": "0.1.0",
+  "homepage": "https://jsdie099.github.io/meu-portifolio/",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.0",

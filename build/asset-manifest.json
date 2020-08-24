@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/meu-portifolio/home/static/css/main.fee15b78.chunk.css",
-    "main.js": "/meu-portifolio/home/static/js/main.a635333e.chunk.js",
-    "main.js.map": "/meu-portifolio/home/static/js/main.a635333e.chunk.js.map",
-    "runtime-main.js": "/meu-portifolio/home/static/js/runtime-main.0133de09.js",
-    "runtime-main.js.map": "/meu-portifolio/home/static/js/runtime-main.0133de09.js.map",
-    "static/js/2.bc6bfc08.chunk.js": "/meu-portifolio/home/static/js/2.bc6bfc08.chunk.js",
-    "static/js/2.bc6bfc08.chunk.js.map": "/meu-portifolio/home/static/js/2.bc6bfc08.chunk.js.map",
-    "index.html": "/meu-portifolio/home/index.html",
-    "precache-manifest.a453bf4249d84f8cad637668281aefda.js": "/meu-portifolio/home/precache-manifest.a453bf4249d84f8cad637668281aefda.js",
-    "service-worker.js": "/meu-portifolio/home/service-worker.js",
-    "static/css/main.fee15b78.chunk.css.map": "/meu-portifolio/home/static/css/main.fee15b78.chunk.css.map",
-    "static/js/2.bc6bfc08.chunk.js.LICENSE.txt": "/meu-portifolio/home/static/js/2.bc6bfc08.chunk.js.LICENSE.txt",
-    "static/media/IMG_4271.jpg": "/meu-portifolio/home/static/media/IMG_4271.1e6ee10f.jpg",
-    "static/media/admincontabil.png": "/meu-portifolio/home/static/media/admincontabil.89930c5f.png",
-    "static/media/fast_food.jpg": "/meu-portifolio/home/static/media/fast_food.6f2bd316.jpg"
+    "main.css": "/meu-portifolio/static/css/main.fee15b78.chunk.css",
+    "main.js": "/meu-portifolio/static/js/main.ae107ebb.chunk.js",
+    "main.js.map": "/meu-portifolio/static/js/main.ae107ebb.chunk.js.map",
+    "runtime-main.js": "/meu-portifolio/static/js/runtime-main.401daeb8.js",
+    "runtime-main.js.map": "/meu-portifolio/static/js/runtime-main.401daeb8.js.map",
+    "static/js/2.bc6bfc08.chunk.js": "/meu-portifolio/static/js/2.bc6bfc08.chunk.js",
+    "static/js/2.bc6bfc08.chunk.js.map": "/meu-portifolio/static/js/2.bc6bfc08.chunk.js.map",
+    "index.html": "/meu-portifolio/index.html",
+    "precache-manifest.368089c3a569cb8b8781ffad0547e076.js": "/meu-portifolio/precache-manifest.368089c3a569cb8b8781ffad0547e076.js",
+    "service-worker.js": "/meu-portifolio/service-worker.js",
+    "static/css/main.fee15b78.chunk.css.map": "/meu-portifolio/static/css/main.fee15b78.chunk.css.map",
+    "static/js/2.bc6bfc08.chunk.js.LICENSE.txt": "/meu-portifolio/static/js/2.bc6bfc08.chunk.js.LICENSE.txt",
+    "static/media/IMG_4271.jpg": "/meu-portifolio/static/media/IMG_4271.1e6ee10f.jpg",
+    "static/media/admincontabil.png": "/meu-portifolio/static/media/admincontabil.89930c5f.png",
+    "static/media/fast_food.jpg": "/meu-portifolio/static/media/fast_food.6f2bd316.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0133de09.js",
+    "static/js/runtime-main.401daeb8.js",
     "static/js/2.bc6bfc08.chunk.js",
     "static/css/main.fee15b78.chunk.css",
-    "static/js/main.a635333e.chunk.js"
+    "static/js/main.ae107ebb.chunk.js"
   ]
 }

@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import * as Icons from '@material-ui/icons';
 
 import './style.css';
-/* 'https://wa.me/5535984523630' */
 export default function Contact() {
     useEffect(()=>{document.title="Contato"},[]);
     return (

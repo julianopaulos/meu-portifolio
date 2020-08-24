@@ -1,20 +1,25 @@
 {
   "files": {
-    "main.js": "/meu-portifolio/static/js/main.be2682ba.chunk.js",
-    "main.js.map": "/meu-portifolio/static/js/main.be2682ba.chunk.js.map",
-    "runtime-main.js": "/meu-portifolio/static/js/runtime-main.b689845a.js",
-    "runtime-main.js.map": "/meu-portifolio/static/js/runtime-main.b689845a.js.map",
-    "static/js/2.fe9c4db6.chunk.js": "/meu-portifolio/static/js/2.fe9c4db6.chunk.js",
-    "static/js/2.fe9c4db6.chunk.js.map": "/meu-portifolio/static/js/2.fe9c4db6.chunk.js.map",
+    "main.css": "/meu-portifolio/static/css/main.fee15b78.chunk.css",
+    "main.js": "/meu-portifolio/static/js/main.a2dc28c1.chunk.js",
+    "main.js.map": "/meu-portifolio/static/js/main.a2dc28c1.chunk.js.map",
+    "runtime-main.js": "/meu-portifolio/static/js/runtime-main.401daeb8.js",
+    "runtime-main.js.map": "/meu-portifolio/static/js/runtime-main.401daeb8.js.map",
+    "static/js/2.bc6bfc08.chunk.js": "/meu-portifolio/static/js/2.bc6bfc08.chunk.js",
+    "static/js/2.bc6bfc08.chunk.js.map": "/meu-portifolio/static/js/2.bc6bfc08.chunk.js.map",
     "index.html": "/meu-portifolio/index.html",
-    "precache-manifest.d75962b99ebf1b1ff8789f68f603c0eb.js": "/meu-portifolio/precache-manifest.d75962b99ebf1b1ff8789f68f603c0eb.js",
+    "precache-manifest.24f6159cf969a5fe8d09e528c68259d9.js": "/meu-portifolio/precache-manifest.24f6159cf969a5fe8d09e528c68259d9.js",
     "service-worker.js": "/meu-portifolio/service-worker.js",
-    "static/js/2.fe9c4db6.chunk.js.LICENSE.txt": "/meu-portifolio/static/js/2.fe9c4db6.chunk.js.LICENSE.txt",
+    "static/css/main.fee15b78.chunk.css.map": "/meu-portifolio/static/css/main.fee15b78.chunk.css.map",
+    "static/js/2.bc6bfc08.chunk.js.LICENSE.txt": "/meu-portifolio/static/js/2.bc6bfc08.chunk.js.LICENSE.txt",
+    "static/media/IMG_4271.jpg": "/meu-portifolio/static/media/IMG_4271.1e6ee10f.jpg",
+    "static/media/admincontabil.png": "/meu-portifolio/static/media/admincontabil.89930c5f.png",
     "static/media/fast_food.jpg": "/meu-portifolio/static/media/fast_food.6f2bd316.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b689845a.js",
-    "static/js/2.fe9c4db6.chunk.js",
-    "static/js/main.be2682ba.chunk.js"
+    "static/js/runtime-main.401daeb8.js",
+    "static/js/2.bc6bfc08.chunk.js",
+    "static/css/main.fee15b78.chunk.css",
+    "static/js/main.a2dc28c1.chunk.js"
   ]
 }

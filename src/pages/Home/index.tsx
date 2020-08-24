@@ -34,7 +34,7 @@ export default function Home() {
                     <section className="main">
                         <img src={myProfilePicture} alt="Foto de perfil"/>
                         <p>
-                            Recém formado em Análise e Desenvolvimento de Sistemas, tenho 21 anos.
+                            Formado em Análise e Desenvolvimento de Sistemas, tenho 21 anos.
                             Sou apaixonado por tecnologia, e me tornei um desenvolvedor web para sanar minhas
                             vontades de aprender, venho com maior foco em  <b>backend development</b>, 
                             mas também com conhecimentos em <b>frontend</b>.

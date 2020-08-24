@@ -109,6 +109,33 @@
 }
 
 
+@media screen and (min-width:700px)
+{
+    .portfolio .content
+    {
+        flex-direction: row;
+    }    
+    .portfolio .content .project-container
+    {
+        margin: 0 20px;
+        margin-bottom:30px;
+    }
+    .portfolio .project-container .details span:first-child
+    {
+        font-size:2rem;
+    }
+    .portfolio .project-container .details span
+    {
+        font-size:1.5rem;
+    }
+    .portfolio .project-container .details a
+    {
+        font-size:2rem;
+    }
+}
+
+
+
 
 /*Animação*/
 .typewriter-effect{

@@ -80,3 +80,15 @@
 {
     color:#ffff;
 }
+@media screen and (min-width:700px)
+{
+    .contact .content
+    {
+        align-items: center;
+        text-align: justify;
+    }
+    .whatsapp-section span:first-child, .email-section span:first-child
+    {
+        margin-bottom:20px;
+    }
+}

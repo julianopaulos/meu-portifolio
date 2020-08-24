@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 html, body, #root{
   height: 100vh;
@@ -23,5 +24,9 @@ body
 {
   :root{
     font-size: 62%;
+  }
+  .container
+  {
+    max-width: 3000px;
   }
 }

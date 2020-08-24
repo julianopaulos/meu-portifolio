@@ -2,6 +2,7 @@
 {
     font-family: 'Courier New', Courier, monospace;
     width: 100vw;
+    overflow:hidden;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -96,6 +97,64 @@
     font-size:6.5rem;
     color: rgba(200,200,200,.6);
 }
+
+
+@media screen and (min-width:700px)
+{
+    .home .presentation .skills
+    {
+        align-items: center;
+    }
+    .home .presentation .subskills
+    {
+        width: 55vw;
+    }
+    .home .content .main
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;/* ou repeat(3, 1fr) */
+        column-gap: 16px;
+    }
+    .content .main img
+    {
+        display: flex;
+        width: 100%; 
+        border-radius:5px;
+    }   
+    .home .content .main p
+    {
+        margin-top:-8px;
+    }
+    .home .content .main p:last-child
+    {
+        margin-top:-85px;
+    }
+    .home .content .social-links
+    {
+        flex-direction: row;        
+        margin-top: 10px;
+    }
+    .home .content .social-links a
+    {
+        margin-right: 30px;
+    }
+    .home .content .social-links a:last-child
+    {
+        margin-right: 0;
+    }
+}
+@media screen and (min-width:1200px)
+{
+    .home .content .main p:last-child
+    {
+        margin-top:20px;
+    }
+    .home .presentation .subskills
+    {
+        width: 50vw;
+    }
+}
+
 
 
 

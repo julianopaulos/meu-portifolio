@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { useHistory } from 'react-router-dom';
 import  * as Icons  from '@material-ui/icons';
 
 import myProfilePicture from '../../assets/imgs/IMG_4271.jpg';
@@ -6,23 +7,38 @@ import myProfilePicture from '../../assets/imgs/IMG_4271.jpg';
 import './style.css';
 
 export default function Home() {
+
+    const history = useHistory();
+
     useEffect(()=>{
         document.title="Home";
     },[]);
+    useEffect(()=>{
+        document.querySelector("div.presentation")?.classList.add("presentation", "animating");
+        document.querySelector("div.skills")?.classList.add("skills", "animating");
+        document.querySelectorAll("div.subskills")?.forEach(item=>{
+            item.classList.add("subskills", "animating");
+        })
+        document.querySelector("section.main")?.classList.add("main", "animating");
+    },[history]);
     return (
         <div className="container">
             <div className="home">
-                <div className="presentation">
-                    <p className="name typewriter-effect anim-typewriter">Juliano Paulo.</p>
-                    <div className="skills">
+                <div className="presentation" data-animation="top">
+                    <p 
+                        className="name typewriter-effect anim-typewriter"
+                    >
+                        Juliano Paulo.
+                    </p>
+                    <div className="skills" data-animation="left">
                         <span>Desenvolvedor Back-end:</span>
-                            <div className="subskills">
+                            <div className="subskills" data-animation="top">
                                 <span>Desenvolvedor PHP</span>
                                 <span>Desenvolvedor Nodejs</span>
                                 <span>Desenvolvedor SQL</span>
                             </div>
                         <span>Desenvolvedor Front-end:</span>
-                            <div className="subskills">
+                            <div className="subskills" data-animation="top">
                                 <span>Desenvolvedor HTML com CSS3 ou Bootstrap</span>
                                 <span>Desenvolvedor Reactjs</span>
                             </div>
@@ -31,7 +47,7 @@ export default function Home() {
                 <hr/>
                 <div className="content">
 
-                    <section className="main">
+                    <section className="main" data-animation="top">
                         <img src={myProfilePicture} alt="Foto de perfil"/>
                         <p>
                             Formado em Análise e Desenvolvimento de Sistemas, tenho 21 anos.

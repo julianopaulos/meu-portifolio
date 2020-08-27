@@ -30,3 +30,21 @@ body
     max-width: 3000px;
   }
 }
+[data-animation]
+{
+    opacity: 0;  
+    transition: .5s;
+}
+[data-animation="top"]
+{
+    transform: translate3d(0,-50px,0);
+}
+[data-animation="left"]
+{
+    transform: translate3d(-50px,0,0);
+}
+[data-animation].animating, [data-animation]#animating
+{
+    opacity: 1;
+    transform: translate3d(0,0,0);
+}

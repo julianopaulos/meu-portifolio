@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/meu-portifolio/static/css/main.21fa4429.chunk.css",
-    "main.js": "/meu-portifolio/static/js/main.ae107ebb.chunk.js",
-    "main.js.map": "/meu-portifolio/static/js/main.ae107ebb.chunk.js.map",
-    "runtime-main.js": "/meu-portifolio/static/js/runtime-main.401daeb8.js",
-    "runtime-main.js.map": "/meu-portifolio/static/js/runtime-main.401daeb8.js.map",
-    "static/js/2.bc6bfc08.chunk.js": "/meu-portifolio/static/js/2.bc6bfc08.chunk.js",
-    "static/js/2.bc6bfc08.chunk.js.map": "/meu-portifolio/static/js/2.bc6bfc08.chunk.js.map",
-    "index.html": "/meu-portifolio/index.html",
-    "precache-manifest.8168b819917142bd9134eebf0a9e54fd.js": "/meu-portifolio/precache-manifest.8168b819917142bd9134eebf0a9e54fd.js",
-    "service-worker.js": "/meu-portifolio/service-worker.js",
-    "static/css/main.21fa4429.chunk.css.map": "/meu-portifolio/static/css/main.21fa4429.chunk.css.map",
-    "static/js/2.bc6bfc08.chunk.js.LICENSE.txt": "/meu-portifolio/static/js/2.bc6bfc08.chunk.js.LICENSE.txt",
-    "static/media/IMG_4271.jpg": "/meu-portifolio/static/media/IMG_4271.1e6ee10f.jpg",
-    "static/media/admincontabil.png": "/meu-portifolio/static/media/admincontabil.89930c5f.png",
-    "static/media/fast_food.jpg": "/meu-portifolio/static/media/fast_food.6f2bd316.jpg"
+    "main.css": "/static/css/main.21fa4429.chunk.css",
+    "main.js": "/static/js/main.c2978a4b.chunk.js",
+    "main.js.map": "/static/js/main.c2978a4b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.87831706.js",
+    "runtime-main.js.map": "/static/js/runtime-main.87831706.js.map",
+    "static/js/2.bc6bfc08.chunk.js": "/static/js/2.bc6bfc08.chunk.js",
+    "static/js/2.bc6bfc08.chunk.js.map": "/static/js/2.bc6bfc08.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.7cc54a2f7ccdcd08bc0b26cb3d2a4ea8.js": "/precache-manifest.7cc54a2f7ccdcd08bc0b26cb3d2a4ea8.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.21fa4429.chunk.css.map": "/static/css/main.21fa4429.chunk.css.map",
+    "static/js/2.bc6bfc08.chunk.js.LICENSE.txt": "/static/js/2.bc6bfc08.chunk.js.LICENSE.txt",
+    "static/media/IMG_4271.jpg": "/static/media/IMG_4271.1e6ee10f.jpg",
+    "static/media/admincontabil.png": "/static/media/admincontabil.89930c5f.png",
+    "static/media/fast_food.jpg": "/static/media/fast_food.6f2bd316.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.401daeb8.js",
+    "static/js/runtime-main.87831706.js",
     "static/js/2.bc6bfc08.chunk.js",
     "static/css/main.21fa4429.chunk.css",
-    "static/js/main.ae107ebb.chunk.js"
+    "static/js/main.c2978a4b.chunk.js"
   ]
 }

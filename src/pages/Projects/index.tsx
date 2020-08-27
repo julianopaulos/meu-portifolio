@@ -1,20 +1,31 @@
 import React, {useEffect} from 'react';
+import { useHistory } from 'react-router-dom';
 
 import superRangoImg from '../../assets/imgs/fast_food.jpg';
 import adminContabilImg from '../../assets/imgs/admincontabil.png';
 
 import './style.css';
 export default function Projects() {
+    const history = useHistory();
     useEffect(()=>{document.title="Projetos"},[]);
+
+    useEffect(()=>{
+        document.querySelector("div.presentation")?.classList.add("presentation", "animating");
+        document.querySelector("div.content")?.classList.add("content", "animating");
+        document.querySelectorAll("div.project-container")?.forEach(item=>{
+            item.classList.add("project-container", "animating");
+        })
+    },[history]);
+
     return (
         <div className="container">
           <div className="portfolio">
-            <div className="presentation">
+            <div className="presentation" data-animation="top">
               <span className="typewriter-effect anim-typewriter">Projetos Desenvolvidos</span>
               <span>Veja alguns de meus projetos aqui:</span>
             </div>
-            <div className="content">
-                <div className="project-container">     
+            <div className="content" data-animation="top">
+                <div className="project-container" data-animation="left">     
                     <a 
                         href="http://superrango.rf.gd" 
                         role="button" 
@@ -41,7 +52,7 @@ export default function Projects() {
                         </a>
                     </div>
                 </div>
-                <div className="project-container">     
+                <div className="project-container" data-animation="left">     
                     <a 
                         href="https://admincontabil.herokuapp.com/" 
                         role="button" 
